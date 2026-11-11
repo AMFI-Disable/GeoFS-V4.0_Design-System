@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         GeoFS-V4.0_Design-System
 // @namespace    https://greasyfork.org/users/1594049
-// @version      0.1.0
+// @version      0.1.1
 // @description  Shared controls and styles for the GeoFS V4.0 ecosystem beta.
 // @author       AMFI-Disable
+// @icon         https://www.geo-fs.com/images/icons/favicon.ico
 // @match        https://beta.geo-fs.com/geofs.php*
 // @match        https://www.geo-fs.com/geofs.php*
 // @require      https://update.greasyfork.org/scripts/604885/code.js
@@ -17,7 +18,7 @@
     const core = window.GeoFSV4Core;
     if (!core) { console.error('[GeoFS-V4.0_Design-System] Core Library missing'); return; }
     const api = {
-        version: '0.1.0',
+        version: '0.1.1',
         button(label, action) {
             const button = document.createElement('button');
             button.type = 'button'; button.className = 'g4-button'; button.textContent = label;
