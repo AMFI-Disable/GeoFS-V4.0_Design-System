@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.0] - V3.9 Foundation Compatibility
+
+- Restores the shared V3.9 ecosystem styles alongside the existing V4 helper API.
+
+
 ## [0.1.0] - Initial Beta
 
 ### Added
