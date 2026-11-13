@@ -1,5 +1,9 @@
 # Changelog
 
+All notable changes, features, and architectural capabilities of this project are documented in this file.
+
+---
+
 ## [0.2.1] - V4 Integration Update
 
 - Updates the V4 version guard and shared styles while retaining the shared design API.
