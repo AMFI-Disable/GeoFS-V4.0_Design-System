@@ -103,7 +103,7 @@
 // @description:ur      GeoFS-V4.0 کے لیے ایک متحد ڈیزائن کا فریم ورک، تمام اسٹینڈ اسٹون ماڈیولز میں ایک پریمیم ڈارک-گرے اور نارنجی UI فراہم کرتا ہے۔ © 2026 AMFI-Disable. Part of the GeoFS-V4.0_Ecosystem.
 
 // @namespace           https://greasyfork.org/users/1594049
-// @version             0.2.1
+// @version             1.0.0
 // @author              AMFI-Disable
 // @homepageURL         https://sites.google.com/view/geofs-v40-ecosystem/home
 // @icon                https://www.geo-fs.com/images/icons/favicon.ico
@@ -119,6 +119,7 @@
 // @compatible          safari
 // @compatible          brave
 // @compatible          opera
+// @run-at              document-idle
 // ==/UserScript==
 
 (() => {
@@ -127,7 +128,7 @@
     const core = window.GeoFSV4Core;
     if (!core) { console.error('[GeoFS-V4.0_Design-System] Core Library missing'); return; }
     const api = {
-        version: '0.2.1',
+        version: '1.0.0',
         button(label, action) {
             const button = document.createElement('button');
             button.type = 'button'; button.className = 'g4-button'; button.textContent = label;
@@ -713,7 +714,7 @@
     document.head.appendChild(style);
     
     console.log("[GeoFS-V4.0_Design-System] >> Styles injected via library wrapper.");
-    if (window.V40_NOTIF) window.V40_NOTIF.success("GeoFS-V4.0_Design-System v0.2.1 Loaded.");
+    if (window.V40_NOTIF) window.V40_NOTIF.success("GeoFS-V4.0_Design-System v1.0.0 Loaded.");
 })();
 
 })();
